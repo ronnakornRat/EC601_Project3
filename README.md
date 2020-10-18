@@ -45,6 +45,7 @@ consider the minimal function that would require in the meeting
 - accessing chat
 - sharing screen
 - quit the meeting
+
 all these options can be accessed easily and the button is intuitive.
 
 ### the security
