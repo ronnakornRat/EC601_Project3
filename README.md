@@ -59,11 +59,15 @@ Jitsi has stressed this issue of having a secure name by placing the auto-genera
 
 There's also an option (inside the meeting room page) to add a password to the current meeting. The password will be reset when the room has ended (last person leave the room) and need to be reconfigured again when a new meeting is created (even if they have the exact same name.)
 
-#### 
+#### identifying someone
+The Jitsi-meet required no account nor any guarantee identity to use its application.
+This means it does not keep list of "contacts" and, therefore, it is not possible to "call" someone.
+
+instead of comparing Jitsi's communication as an act of "calling" people, it is more accurate to describe it as deciding on a meetinng place (meeting room name), and whoever know the meeting place (the name) will be able to show up in the meeting
+
 
 ### other interesting aspect
 According to Jitsi, "Jitsi models its meetings after in-person gatherings." As the result, no one in the "meeting" will have the exclusive power (to mute,kick,etc.) over the others. Instead, from the jitsi's model, everyone is the moderator. Thus, anyone can mute/kick anybody else. This might sound inconvenient at first, however, according to Jitsi, this also allows anyone in the meeting to solve technical issues like, someone forgot to mute/unmute themselves, a microphone was having noises, people didn't leave the meeting, etc. 
 
 On the other hand, Jitsi also provided an option for anyone to host their own Jitsi-meet instance and configure it to suit their needs.
-
 
