@@ -39,6 +39,14 @@ jitsi-meet provides a clean interface as shown below
 
 ![Image of jitsi meeting room](https://github.com/ronnakornRat/EC601_Project3/blob/main/image/jitsi_room.JPG)
 
+consider the minimal function that would require in the meeting
+- mute/unmute themselves
+- turn on/off the video
+- accessing chat
+- sharing screen
+- quit the meeting
+all these options can be accessed easily and the button is intuitive.
+
 ### the security
 #### the room
 According to Jitsi (https://jitsi.org/security/), the meeting room is only created when first participant join the room and is destroyed once the last participant leave the room. This method make it so that the "meeting room" is harder to be identitied, since it will only come into existence when someone actually joins the room.
@@ -47,6 +55,10 @@ Meeting room in the Jitsi-meet can be accessed/refered to ONLY by its name. This
 for example, the https://meet.jit.si/NervousWeedsConfineIndeed would be less likely to be targeted than https://meet.jit.si/mymeeting
 
 Jitsi has stressed this issue of having a secure name by placing the auto-generated name in the main page that people can use to "securely" pick a name. The auto-generated names, as mentioned above, are strings of "normal" words appended together. The idea is that, according to jitsi, it is "easy to remember and read out loud on a phone call."
+
+There's also an option (inside the meeting room page) to add a password to the current meeting. The password will be reset when the room has ended (last person leave the room) and need to be reconfigured again when a new meeting is created (even if they have the exact same name.)
+
+#### 
 
 ### other interesting aspect
 According to Jitsi, "Jitsi models its meetings after in-person gatherings." As the result, no one in the "meeting" will have the exclusive power (to mute,kick,etc.) over the others. Instead, from the jitsi's model, everyone is the moderator. Thus, anyone can mute/kick anybody else. This might sound inconvenient at first, however, according to Jitsi, this also allows anyone in the meeting to solve technical issues like, someone forgot to mute/unmute themselves, a microphone was having noises, people didn't leave the meeting, etc. 
